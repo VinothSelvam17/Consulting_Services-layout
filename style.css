@@ -1,0 +1,890 @@
+.nav1{
+    background-color: darkblue;
+    color: white;
+    font-family:Eras Demi ITC;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+    display: grid;
+    justify-content: space-between;
+}
+.nav{
+    font-family:Eras Demi ITC;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 0px;
+    font-size: large;
+}
+.nav .fst{
+    font-size: xx-large;
+}
+.nav .fst i{
+    color: darkblue;
+}
+.nav ul{
+    padding: 15px 0px;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: navy;
+    color: white;
+    transition-duration: 0.3s;
+}
+.nav .nvl{
+    font-size: 18px;
+}
+.img1{
+    height: 28rem;
+    width: 100%;
+    background-image: url(img/o.jpg);
+    background-repeat: round;
+    margin-bottom: 40px;
+}
+.img2{
+    height: 28rem;
+    width: 100%;
+    background-image: url(img/p1.webp);
+    background-repeat: round;
+    margin-bottom: 40px;
+}
+.tab{
+    font-family:Eras Demi ITC;
+    text-align: center;
+    padding: 30px 0px;
+    color: rgb(3, 3, 107);
+}
+.tab i{
+    height: 50px;
+    width: 50px;
+    border: 2px solid darkblue;
+    padding: 10px 0px;
+    border-radius: 3px;
+    font-size: x-large;
+}
+.tab h5{
+    margin: 10px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.tab p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.img3{
+    height: 393px;
+    width: 100%;
+    background-image: url(img/p5.jpg);
+    background-repeat: round;
+}
+.tpup{
+    margin-top: 50px;
+}
+.tab1{
+    padding: 100px;
+    font-family:Eras Demi ITC;
+    background-color: rgb(219, 217, 217);
+    margin-bottom: 70px;
+}
+.tab1 h5{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px 0px;
+    color: rgb(6, 6, 107);
+}
+.tab1 div{
+    border-bottom: 1px solid darkblue;
+    width: 22%;
+}
+.tab1 button{
+    color: white;
+    border: none;
+    background-color: darkblue;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.tab1 p{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.tab2{
+    font-family:Eras Demi ITC;
+    color: rgb(3, 3, 91);
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.tab2 p{
+    border-bottom: 2px solid darkblue;
+    width: 7%;
+}
+.img4{
+    height: 300px;
+    width: 100%;
+    background-image: url(img/o1.webp);
+    background-repeat: round;
+}
+.img5{
+    height: 300px;
+    width: 100%;
+    background-image: url(img/o2.webp);
+    background-repeat: round;
+}
+.img6{
+    height: 300px;
+    width: 100%;
+    background-image: url(img/wm1.png);
+    background-repeat: round;
+}
+.tab3{
+    font-family:Eras Demi ITC;
+    color: rgb(3, 3, 112);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    font-size: large;
+}
+.tab3 h6{
+    margin: 15px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab3 p{
+    border: 1px solid darkblue;
+    border-radius: 20%;
+    margin-top: 18px;
+}
+.tab3 span{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: -15px;
+}
+.tab3 div{
+    font-size: 14px;
+}
+.tab4{
+    background-color: darkblue;
+    padding: 30px;
+    margin: 50px 0px;
+    font-family:Eras Demi ITC;
+}
+.tab5{
+    font-family:Eras Demi ITC;
+    background-color: white;
+    padding: 20px;
+}
+.tab5 i{
+    color: darkblue;
+}
+.img7{
+    height: 70px;
+    width: 70px;
+    background-image: url(img/f1.avif);
+    background-repeat: round;
+    border-radius: 50%;
+}
+.img8{
+    height: 70px;
+    width: 70px;
+    background-image: url(img/f4.jpg);
+    background-repeat: round;
+    border-radius: 50%;
+}
+.img9{
+    height: 70px;
+    width: 70px;
+    background-image: url(img/f2.jpg);
+    background-repeat: round;
+    border-radius: 50%;
+}
+.img10{
+    height: 70px;
+    width: 70px;
+    background-image: url(img/f3.jpg);
+    background-repeat: round;
+    border-radius: 50%;
+}
+.tab5 h5{
+    font-weight: bold;
+}
+.tab5 p{
+    color: gray;
+}
+.img11{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/o3.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.img12{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/p6.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+
+}
+.img13{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/wo.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+
+}
+.img14{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/p1.webp);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.tab6{
+    font-family:Eras Demi ITC;
+    background-color: rgb(222, 222, 222);
+    padding: 50px 0px 20px 0px;
+    color: gray;
+    margin-top: 30px;
+}
+.tab6 button{
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 20px 0px 0px 0px;
+}
+.tab7{
+    font-family:Eras Demi ITC;
+    padding: 20px 0px 20px 0px;
+    line-height: 50px;
+}
+.tab7 div{
+    color: gray;
+}
+.tab7 h1{
+    color: darkblue;
+    font-weight: bolder;
+}
+.tab7 p{
+    font-size: xx-large;
+    color: gray;
+    font-weight: 100;
+    margin: -5px 0px 0px 0px;
+}
+.tab7 h2{
+    border: 2px solid darkblue;
+    width: 10%;
+    border-radius: 20px;
+}
+.tab7 span{
+    color: gray;
+}
+.tab7 h6{
+    font-weight: bold;
+}
+.img15{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/o4.jpg);
+    background-repeat: round;
+}
+.img16{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/wm.jpg);
+    background-repeat: round;
+}
+.img17{
+    height: 370px;
+    width: 100%;
+    background-image: url(img/p2.jpg);
+    background-repeat: round;
+}
+.tab8{
+    background-color: rgb(5, 5, 108);
+    color: white;
+    font-family:Eras Demi ITC;
+    font-weight: bold;
+    padding: 50px 0px;
+    margin: 30px 0px;
+}
+.tab9{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.tab9 .f1{
+    background-color: rgb(214, 212, 212);
+    color: darkblue;
+    padding: 10px 10px;
+    margin: 10px;
+}
+.tab9 .f2{
+    border-top: 3px solid  rgb(210, 208, 208);
+    border-bottom: 3px solid rgb(205, 203, 203);
+    padding: 3px;
+}
+.tab10{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab10 .f3{
+    border: 2px solid rgb(185, 183, 183);
+    padding: 5px 10px 5px 10px;
+}
+.tab10 .f4{
+    font-size: larger;
+}
+.space i{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.space h5{
+    font-weight: bolder;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+.space{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.space i{
+    text-align: center;
+    font-weight: bolder;
+}
+.tab11 i{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.tab11 h5{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.tab12 i{
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.tab12 h5{
+    margin-right: 2px;
+    margin-top: 6px;
+}
+.footer{
+    font-family:Eras Demi ITC;
+    margin: 50px;
+}
+.footer .fst span{
+    font-size: xx-large;
+}
+.footer .fst i{
+    font-size: xx-large;
+    color: darkblue;
+}
+.footer p{
+    color: grey;
+}
+.fst input{
+    padding: 6px 80px 6px 10px;
+    border: none;
+}
+.fst button{
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgb(3, 3, 82);
+    padding: 8px 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -2px;
+}
+.footer h5{
+    margin: 20px 0px;
+    color: darkblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+.footer ul li{
+    font-size: large;
+    margin-left: -30px ;
+}
+.ft{
+    font-family:Eras Demi ITC;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+}
+.ft .fa-heart{
+    color: red;
+}
+.aimg span,.bimg span,.cimg span,.pimg span,.simg span{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.aimg p,.bimg p,.cimg p,.pimg p,.simg p{
+    color: white;
+    font-size: 16px;
+    font-family:Eras Demi ITC;
+    word-spacing: 20px;
+    font-weight: bold;
+}
+.aimg{
+    padding: 100px;
+    width: 100%;
+    background-image: url(img/g2.jpg);
+    background-repeat: round;
+}
+.aimg1{
+    padding: 210px;
+    width: 100%;
+    background-image: url(img/p2.jpg);
+    background-repeat: round;
+    margin-bottom: 70px;
+}
+.atab{
+    font-family:Eras Demi ITC;
+}
+.atab h4,.atab2 h4{
+    color: darkblue;
+    font-weight: bold   ;
+}
+.atab1{
+    font-family:Eras Demi ITC;
+    margin: 40px 0px 40px 0px;
+    color: gray;
+}
+.atab1 i{
+    color: darkblue;
+}
+.atab1 h6{
+    font-size: larger;
+    color: black;
+}
+.atab2{
+    font-family:Eras Demi ITC;
+}
+.atab2 hr{
+    border: 2px solid gray;
+}
+.atab3{
+    font-family:Eras Demi ITC;
+    color: white;
+    background-color: black;
+    padding: 40px;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+.atab3 button{
+    background: no-repeat;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.simg{
+    width: 100%;
+    background-image: url(img/g3.jpg);
+    background-repeat: round;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+.stab h5{
+    color: darkblue;
+    font-weight: bold;
+}
+.stab{
+    font-family:Eras Demi ITC;
+    margin: 50px 0px;
+}
+.stab hr{
+    border: 2px solid gray;
+}
+.simg1{
+    height: 300px;
+    width: auto;
+    background-image: url(img/g4.png);
+    background-repeat: round;
+    margin: 10px 0px 30px 0px;
+}
+.stab1{
+    font-family:Eras Demi ITC;
+    text-align: center;
+    background-color: rgb(224, 222, 222);
+    box-shadow: 1px 1px 1px 2px rgb(195, 193, 193);
+    line-height: 40px;
+    padding: 30px 0px 0px 0px;
+    margin: 40px 0px;
+}
+.stab1 i{
+    color: rgb(165, 164, 164);
+    margin: 10px 0px;
+    padding: 20px 0px;
+    font-size: 70px;
+}
+.stab1 h6{
+    color: darkblue;
+    font-weight: 600;
+    font-size: large;
+}
+.stab1 h2{
+    color: darkblue;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.stab1 p{
+    margin: 25px 0px;
+}
+.stab1 span{
+    color: darkblue;
+    margin: 45px 0px;
+}
+.stab1 button{
+    border: none;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    padding: 5px 35px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.bimg{
+    width: 100%;
+    background-image: url(img/g7.jpg);
+    background-repeat: round;
+    padding: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.bimg1{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/o2.webp);
+    background-repeat: round;
+    margin: 0px 0px 20px 0px;
+}
+.bimg2{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/o1.webp);
+    background-repeat: round;
+    margin: 50px 0px 20px 0px;
+}
+.bimg3{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/ut1.jpg);
+    background-repeat: round;
+    margin: 50px 0px 20px 0px;
+}
+.bimg4{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/ut.jpg);
+    background-repeat: round;
+    margin: 50px 0px 20px 0px;
+}
+.bimg5{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/g6.jpg);
+    background-repeat: round;
+    margin: 50px 0px 20px 0px;
+}
+.btab1{
+    font-family:Eras Demi ITC;
+}
+.btab1 h5{
+    color: navy;
+    font-weight: bold;
+}
+.btab1 h6{
+    color: navy;
+    font-weight: 600;
+}
+.btab1 h6 span{
+    margin-left: 80px;
+}
+.btab2{
+    font-family:Eras Demi ITC;
+}
+.btab2 button{
+    border: none;
+    background-color: white;
+    padding: 0px 0px 20px 0px;
+    margin-top: 10px;
+}
+.btab2 span i{
+    margin: 5px;
+    background-color: white;
+    color: black;
+}
+.btab2 i{
+    height: 35px;
+    width: 35px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin: 3px;
+}
+.btab3{
+    font-family:Eras Demi ITC;
+    margin: 50px 0px;
+}
+.btab3 button:first-child{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin: 10px;
+    background-color: rgb(220, 217, 217);
+    border: none;
+    color: navy;
+    font-weight: bolder;
+}
+.btab3 button{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    margin: 8px;
+    background-color: navy;
+    border: none;
+    font-weight: bolder;
+    color: white;
+}
+.btab3 i{
+    font-size: x-small;
+    color: navy;
+    margin: 2px;
+}
+.btab4{
+    font-family:Eras Demi ITC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 1px 1px 1px gray,
+                1px 1px 1px 1px gray inset; */
+    border: 3px solid rgb(222, 221, 221);
+    text-align: center;
+    line-height: 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.bimg6{
+    height: 150px;
+    width: 55%;
+    background-image: url(img/f5.jpg);
+    background-repeat: round;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+.btab4 h6{
+    color: navy;
+    font-weight: 600;
+}
+.btab4 h5{
+    color: gray;
+    font-size: 16px;
+}
+.btab4 div{
+    margin: 10px 0px;
+}
+.btab4 i{
+    margin: 6px;
+}
+.btab5{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btab5 .tb1{
+    border-left: 3px solid rgb(222, 221, 221);
+    padding: 10px 10px 0px 10px;
+border-bottom: 3px solid rgb(222, 221, 221);
+border-bottom-left-radius: 3px;
+}
+.btab5 .tb2{
+    border-left: 3px solid rgb(222, 221, 221);
+    padding: 10px 10px 0px 10px;
+border-bottom: 3px solid rgb(222, 221, 221);
+border-right:3px solid rgb(222, 221, 221);
+border-bottom-right-radius: 3px;
+}
+.btab6{
+    border: 3px solid rgb(222, 221, 221);
+    padding: 20px;
+    font-family:Eras Demi ITC;
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+.btab6 h5{
+    color: navy;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.btab6 span i{
+    margin: 10px;
+}
+.btab6 span{
+    color: gray;
+    font-size: 17px;
+}
+.btab7{
+    border: 3px solid rgb(222, 221, 221);
+    padding: 20px;
+    font-family:Eras Demi ITC;
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+.btab7 h6,.btab7 i{
+    color: navy;
+    font-weight: bolder;
+}
+.btab7 h5,.btab7 h6{
+    margin-left: 40px;
+}
+.btab7 span{
+    margin-top: 20px;
+}
+.pimg{
+    width: 100%;
+    background-image: url(img/g4.png);
+    background-repeat: round;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+.pimg1{
+    height: 350px;
+    width: auto;
+    background-image: url(img/g1.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg2{
+    height: 350px;
+    width: auto;
+    background-image: url(img/g3.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg3{
+    height: 350px;
+    width: auto;
+    background-image: url(img/g8.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg4{
+    height: 350px;
+    width: auto;
+    background-image: url(img/wm1.png);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg5{
+    height: 350px;
+    width: auto;
+    background-image: url(img/o3.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg6{
+    height: 350px;
+    width: auto;
+    background-image: url(img/o.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg7{
+    height: 350px;
+    width: auto;
+    background-image: url(img/o2.webp);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+.pimg8{
+    height: 350px;
+    width: auto;
+    background-image: url(img/o4.jpg);
+    background-repeat: round;
+    margin-bottom: 30px;
+}
+
+
+.cimg{
+    width: 100%;
+    background-image: url(img/wm1.png);
+    background-repeat: round;
+    padding: 100px;
+    margin-bottom: 50px;
+}
+.ctab{
+    font-family:Eras Demi ITC;
+    line-height: 40px;
+    margin: 40px 0px;
+    line-height: 50px;
+}
+.ctab h5{
+    color: navy;
+    font-weight: bold;
+}
+.ctab p{
+    border: 1px solid navy;
+    width: 20%;
+}
+.ctab ul li{
+    margin-left: -40px;
+}
+.ctab ul li i{
+    font-weight: 600;
+    margin: 0px 15px;
+}
+.ctab1{
+    font-family:Eras Demi ITC;
+    color: gray;
+    padding: 0px 20px 0px 20px;
+}
+.ctab1 h5{
+    color: navy;
+    font-weight: bold;
+}
+.ctab1 p{
+    border: 1px solid navy;
+    width: 17%;
+}
+.ctab1 button{
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px 0px 0px 0px;
+}
